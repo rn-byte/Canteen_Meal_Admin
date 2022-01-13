@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+
+    <item android:title="Noice">
+        <menu>
+            <item android:id="@+id/noti"
+            android:title="Add Notice"
+            android:icon="@drawable/ic_baseline_contacts_24"/>
+            <item android:id="@+id/dispNotice"
+            android:title="Display Notice"
+            android:icon="@drawable/ic_baseline_contacts_24"/>
+        </menu>
+    </item>
+
+    <item android:title="Menu">
+        <menu>
+             <item android:id="@+id/menu"
+                 android:title="Add Menu"
+                android:icon="@drawable/ic_baseline_menu_book_24"/>
+            <item android:id="@+id/displaymenu"
+                android:title="Show Menu"
+                android:icon="@drawable/ic_baseline_menu_book_24"/>
+        </menu>
+    </item>
+
+
+
+    <item android:title="Staff">
+        <menu>
+            <item android:id="@+id/astaff"
+                android:title="Add Staff"
+                android:icon="@drawable/ic_baseline_supervisor_account_24"/>
+            <item android:id="@+id/vstaff"
+                android:title="View Staff"
+                android:icon="@drawable/ic_baseline_supervisor_account_24"/>
+        </menu>
+    </item>
+
+    <item android:id="@+id/logout"
+        android:title="Logout"
+        android:icon="@drawable/ic_baseline_menu_book_24"/>
+
+
+
+</menu>
